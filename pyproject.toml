@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oraclepipeline"
+version = "0.1.0"
+description = ""
+authors = ["Breno Carvalho <beencarvalho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cx-oracle = "^8.3.0"
+pandas = "^2.2.3"
+duckdb = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
